@@ -1,10 +1,10 @@
 // Importing required modules
 var fs = require('fs');
 var https = require('https');
+const serverConfig = require('./config/serverConfig');
 
 // Importing the main app file
 const app = require("./src/app");
-const serverConfig = require('../config/serverConfig');
 
 // Defining the port number and host address
 const PORT = serverConfig.port;
